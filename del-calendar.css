@@ -1,0 +1,21 @@
+td.calendarday
+{
+    height: 50px;
+    border: 1px solid #bbb;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 14%;
+}
+td.calendarday.greyed
+{
+    background-color: #ddd;
+}
+td.calendarday.past, td.calendarday.active
+{
+    background-color: #fff;
+}
+td.calendarday.bluebox
+{
+    background-color: #ddddff;
+}
